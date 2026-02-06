@@ -1,0 +1,288 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: "Segoe UI", Inter, Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background-color: #0f172a;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-inner h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.header-inner nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #c7d2fe;
+}
+
+.header-inner nav a:hover {
+  color: #ffffff;
+}
+
+/* MAIN LAYOUT */
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 32px 24px;
+}
+
+/* PAGE HEADER */
+.page-header {
+  margin-bottom: 28px;
+}
+
+.page-header h2 {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.page-header p {
+  font-size: 15px;
+  color: #475569;
+}
+
+/* CARD BASE */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  margin-bottom: 28px;
+  border: 1px solid #e2e8f0;
+}
+
+/* FORM */
+.form-card input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.form-card input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* BUTTON */
+.form-card button {
+  width: 100%;
+  padding: 16px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-card button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* IDEAS GRID */
+.ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* IDEA CARD */
+.idea-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+}
+
+.idea-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1d4ed8;
+}
+
+.idea-card p {
+  font-size: 14px;
+  color: #334155;
+  text-align: justify;
+}
+
+.idea-card ul {
+  margin-top: 12px;
+  padding-left: 18px;
+}
+
+.idea-card li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* HISTORY */
+.history-card {
+  background-color: #f8fafc;
+}
+
+.history-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: #e0e7ff;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+/* HISTORY HEADER */
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CLEAR BUTTON */
+.clear-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #dc2626;
+}
+
+/* OUTER HISTORY BOX */
+.history-outer {
+  padding: 24px;
+}
+
+/* INPUT BOX */
+.history-input-box {
+  background-color: #e0e7ff;
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+/* IDEAS CONTAINER */
+.history-ideas-box {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* IDEA CARD REFINEMENT */
+.idea-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.idea-card h3 {
+  color: #1d4ed8;
+  margin-bottom: 8px;
+}
+
+.idea-card p {
+  font-size: 14px;
+  color: #334155;
+  text-align: justify;
+}
+
+/* IDEA WRAPPER (SEPARATION) */
+.idea-wrapper {
+  border: 1px solid #c7d2fe;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+/* IDEA LABEL */
+.idea-index {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+/* IDEA CARD OVERRIDE */
+.idea-wrapper .idea-card {
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+/* ABOUT PAGE */
+.about-card h3 {
+  margin-bottom: 10px;
+  color: #1e40af;
+}
+
+.about-card h4 {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  color: #1e3a8a;
+}
+
+.about-card p {
+  font-size: 14px;
+  color: #334155;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about-card ul {
+  padding-left: 18px;
+}
+
+.about-card li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+
