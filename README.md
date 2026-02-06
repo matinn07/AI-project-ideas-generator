@@ -134,7 +134,6 @@ This application uses **Artificial Intelligence** to:
 - LLaMA 3 model pulled
 
 ```bash
-ollama pull llama3
 
 Backend Setup
 cd backend
