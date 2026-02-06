@@ -115,13 +115,13 @@ This application uses **Artificial Intelligence** to:
 ## 📸 Screenshots
 
 ### Home Page – Generate Project Ideas
-![Home Page](./Screenshot%202026-02-07%20030033.png)
+![Home Page](./home.png)
 
 ### History Page – Stored AI Outputs
-![History Page](./Screenshot%202026-02-07%20030047.png)
+![History Page](./history.png)
 
-### GitHub Repository View
-![GitHub Repo](./Screenshot%202026-02-07%20030545.png)
+### About Page
+![About Page](about.png)
 
 ---
 
